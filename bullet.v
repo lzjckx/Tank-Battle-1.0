@@ -1,6 +1,6 @@
 module bullet(clk,resetn,tx,ty,td,ready,fire,bx,by,bd,start);
 	input clk,resetn,start;
-	input [7:0] tx; // x-coordinate of tank
+	input [7:0] tx; // x-coordinate of tankk
 	input [6:0] ty; // y-coordinate of tank
 	input [1:0] td; // direction of tank
 	input ready; // a signal of bullet
